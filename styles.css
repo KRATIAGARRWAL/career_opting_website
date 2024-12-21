@@ -1,0 +1,265 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION BAR */
+
+#navbar {
+    display: flex;
+    position: relative;
+}
+
+#navbar span {
+    padding-top: 29px;
+}
+
+#navbar ul {
+
+    display: flex;
+    justify-content: right;
+    width: 100vw;
+    align-items: center;
+    /* padding-left: 30rem; */
+}
+
+#navbar ul li {
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 15px;
+
+}
+
+#navbar ul li a {
+
+    text-decoration: none;
+    border-radius: 23px;
+    font-size: 21px;
+    padding: 3px 6px;
+    color: black;
+    font-size: 20px;
+    /* font-family: 'Dhurjati', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Exo 2', sans-serif; 
+    font-family: 'Kanit', sans-serif; */
+     font-family: 'Poppins', sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+
+/* LOGO AND IMAGE */
+.logo {
+    margin: 1opx 20px;
+}
+
+.logo img {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: 10px 20px;
+}
+
+/* HOME SECTION */
+#home {
+    display: flex;
+    flex-direction: column;
+}
+#home span{
+   margin: 160px;
+}
+#home span h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+}
+
+#home span p{
+    font-family: 'Poppins', sans-serif;
+}
+
+#home::before {
+    content: "";
+    background-image: url(/images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 506px;
+    width: 100%;
+    opacity: 0.76;
+    z-index: -1;
+}
+.btn:hover{
+    color:black;
+    background-color: rgba(74, 163, 235, 0.451) ;
+}
+
+
+/* FIND CAREER */
+.findcareer{
+    background-color: rgba(11, 133, 54, 0.63);
+    /* opacity: 0.8; */
+}
+.findcareer h1{
+    padding: 30px;
+}
+.findcareer span{
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#first{
+    width: 250px;
+    padding: 6px;
+    margin-right:20px ;
+}
+#second{
+    width: 250px;
+    padding: 6px;
+    margin-right:20px ;
+}
+#third{
+    width: 250px;
+    padding: 6px;
+    margin-right:20px ;
+}
+span input{
+    font-size: 16px;
+    padding: 7px;
+    margin-left: 60px;
+    border-radius: 4px;
+    background-color: rgba(220, 31, 31, 0.784);
+}
+span input:hover{
+    background-color: brown;
+    color: wheat;
+}
+
+/* ABOUT US */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+#about{
+   margin-top: 40px;
+   
+}
+#about h1{
+    margin-bottom: 50px;
+}
+#pone{
+    font-size: 25px;
+    font-family: sans-serif ;
+
+}
+#ptwo{
+    font-size: 20px;
+}
+
+/* CAREER GUIDANCE PROCESS */
+#careerguidanceprocess{
+    margin-top:40px ;
+   
+}
+  
+#flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+ .item1{
+     height: 200px;
+     width: 210px;
+     border: 2px solid  black;
+     border-radius: 100%;
+ }
+ #box4{
+     position: relative;
+     bottom: 120px;
+     right: 325px;
+ }
+ #box5{
+    position: relative;
+    top: 60px;
+    right: 340px;
+ }
+ #box6{
+     position: relative;
+     top: 60px;
+     right: 250px;
+ }
+ #box3{
+     position: relative;
+     bottom: 84px;
+    left: 905px;
+
+ }
+ #box2{
+    position: relative;
+    left: 20px;
+ }
+ #box7{
+    position: relative;
+    left: 15px;
+ }
+ #box1{
+    position: relative;
+    left: 7px;
+ }
+ .item1 h3{
+    padding-top: 70px;
+    padding-left: 19px;
+ }
+ #flexcontainer div{
+    box-shadow: 1px 1px 3px black;
+ }
+ #flexcontainer div:hover{
+    background-color: rgba(11, 133, 54, 0.63);
+    font-family: 'DM Serif Display', serif;
+    
+ }
+
+
+
+
+
+
+/* UTILITY CLASS */
+h1{
+    font-size: 33px;
+    font-family: 'Kanit', sans-serif;
+}
+.center {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 4px;
+    padding: 4px 6px;
+    font-size: 14px;
+    border: solid 1px black;
+    background-color: rgba(145, 186, 219, 0.451);
+    border-radius: 4px;
+    cursor: pointer;
+}

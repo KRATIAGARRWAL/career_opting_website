@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cae5ec;
+  }
+  
+  header {
+    background-color: #4b79a1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  .medical-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.medical-field img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.medical-field h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.medical-field p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.medical-field a {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background-color: #4b79a1;
+  color: #fff;
+  font-weight: bold;
+}
+
+.medical-courses {
+    padding: 40px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    grid-gap: 20px; /* Spacing between boxes */
+  }
+  
+  .course-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .course-box img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .course-box h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .course-box p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .course-box a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: #4b79a1;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .why-medical {
+    background-image: linear-gradient(to right, #e5f2e4, #90ca69);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .why-medical h2 {
+    font-size: 1.8em; 
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .why-medical p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    list-style: disc;
+    margin-left: 20px; 
+  }
+  
+ 
+  
+  .why-medical p {
+    font-style: italic;
+    color: #4b79a1; 
+  }
+  
+ 
+  
+  .why-medical p li:before {
+    content: "\2022"; 
+    color: #4b79a1;
+    font-size: 1.5em; 
+    margin-left: -15px; 
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn.primary {
+    background-color: #4b79a1;
+    color: #fff;
+}
+
+.btn.secondary {
+  background-color: #eee;
+  color: #333;
+}
+
+
+
+
+
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #4b79a1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

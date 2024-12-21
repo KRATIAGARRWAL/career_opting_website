@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Counselling Quiz</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="codegpt.css">
+</head>
+<body>
+	<header>
+		<h1>Counselling Quiz</h1>
+	</header>
+	<main>
+		<form>
+			<h2>Question 1</h2>
+			<p>What is your age?</p>
+			<input type="number" name="age" required>
+
+			<h2>Question 2</h2>
+			<p>What is your gender?</p>
+			<label><input type="radio" name="gender" value="male" required>Male</label>
+			<label><input type="radio" name="gender" value="female" required>Female</label>
+			<label><input type="radio" name="gender" value="other" required>Other</label>
+
+			<h2>Question 3</h2>
+			<p>What is your current occupation?</p>
+			<select name="occupation" required>
+				<option value="">Select an option</option>
+				<option value="student">Student</option>
+				<option value="employed">Employed</option>
+				<option value="unemployed">Unemployed</option>
+				<option value="retired">Retired</option>
+			</select>
+
+			<h2>Question 4</h2>
+			<p>How often do you feel stressed?</p>
+			<label><input type="radio" name="stress" value="never" required>Never</label>
+			<label><input type="radio" name="stress" value="sometimes" required>Sometimes</label>
+			<label><input type="radio" name="stress" value="often" required>Often</label>
+			<label><input type="radio" name="stress" value="always" required>Always</label>
+
+			<h2>Question 5</h2>
+			<p>How do you cope with stress?</p>
+			<label><input type="checkbox" name="cope[]" value="exercise">Exercise</label>
+			<label><input type="checkbox" name="cope[]" value="meditation">Meditation</label>
+			<label><input type="checkbox" name="cope[]" value="socializing">Socializing</label>
+			<label><input type="checkbox" name="cope[]" value="hobbies">Hobbies</label>
+
+			<button type="submit">Submit</button>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2021 Counselling Quiz</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION BAR */
+
+#navbar {
+    display: flex;
+    position: relative;
+}
+
+#navbar span {
+    padding-top: 20px;
+}
+
+#navbar ul {
+
+    display: flex;
+    justify-content: right;
+    width: 100vw;
+    align-items: center;
+    /* padding-left: 40rem; */
+}
+
+#navbar ul li {
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 20px;
+
+}
+
+#navbar ul li a {
+
+    text-decoration: none;
+    border-radius: 23px;
+    font-size: 21px;
+    padding: 3px 6px;
+    color: black;
+    font-size: 20px;
+    /* font-family: 'Dhurjati', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Exo 2', sans-serif; 
+    font-family: 'Kanit', sans-serif; */
+     font-family: 'Poppins', sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+#navbar ul li a:hover {
+    /* background-color: white; */
+    color: green;
+    text-decoration: underline;
+}
+
+#navbar::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.4; */
+    z-index: -1;
+}
+
+/* LOGO AND IMAGE */
+.logo {
+    margin: 10px 20px;
+}
+
+.logo img {
+    height: 3rem;
+    width: 3.5rem;
+    /* margin: 18px 16px; */
+}
+
+/* LOGIN IMAGE */
+#login_img img{
+ width: 100vw;
+ 
+}
+
+/* HOME AND LOGIN */
+
+#home_login{
+    display: flex;
+    background-color: rgb(212, 212, 210);
+    padding: 10px 20px;
+    
+}
+#home_login li{
+    list-style: none;
+}
+#home_login li a{
+    text-decoration: none;
+    padding: 20px 25px;
+    color: black; 
+    font-size: 20px;
+     font-family: 'Space Grotesk', sans-serif;
+}
+#home_login li a:hover{
+    color: green;
+}
+
+/* LOGIN ACCOUNT */
+
+#login{
+    margin-top: 80px;
+}
+
+#login h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 37px; 
+}
+
+#account{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+#account input{
+    padding: 9px 6px;
+    margin-top: 7px;
+    width: 400px;
+    border: 2px solid grey;
+}
+
+#account input[type='submit']{
+    margin-top: 25px;
+    width: 420px;
+    background-color: green;
+    color: white;
+}
+
+/* LOGO */
+#logo{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+#logo i{
+    padding-left: 10px;
+}
+
+/* DON'T HAVE AN ACCOUNT */
+#no_account{
+    margin-top: 27px;
+}
+#no_account a{
+    text-decoration: none;
+    color: black;
+    
+}
+
